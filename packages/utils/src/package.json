@@ -1,0 +1,8 @@
+{
+    "name": "owen-web/utils",
+    "private": true,
+    "version": "0.1.0",
+    "description": "utils",
+    "author": "Owen Chang",
+    "license": "MIT"
+}
