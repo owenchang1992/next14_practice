@@ -1,3 +1,1 @@
-. "$(dirname -- "$0")/_husky.sh"
-
 npx lint-staged

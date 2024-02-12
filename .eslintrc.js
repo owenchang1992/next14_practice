@@ -36,7 +36,7 @@ module.exports = {
   // prettier插件（即eslint-plugin-prettier）將 Prettier 規則轉換為 ESLint 規則
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': 'error', // 開啟prettier外掛提供的規則，該外掛程式從 ESLint 內執行 Prettier
+    'prettier/prettier': ['error'], // 開啟prettier外掛提供的規則，該外掛程式從 ESLint 內執行 Prettier
     // 關閉這兩個 ESLint 核心規則，這兩個規則和prettier外掛一起使用會出現問題
     'allow-body-style': 'off',
     'prefer-arrow-callback': 'off',
