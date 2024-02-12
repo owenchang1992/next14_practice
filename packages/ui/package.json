@@ -1,8 +1,8 @@
 {
-    "name": "owen-web/utils",
+    "name": "@owen-web/component",
     "private": true,
     "version": "0.1.0",
-    "description": "utils",
+    "description": "component",
     "author": "Owen Chang",
     "license": "MIT"
 }
