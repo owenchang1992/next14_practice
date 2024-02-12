@@ -13,6 +13,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
+    'prettier',
   ],
   overrides: [
     {
@@ -32,6 +33,12 @@ module.exports = {
     sourceType: 'module',
   },
   // @typescript-eslint 外掛程式使得我們能夠在我們的儲存庫中使用typescript-eslint套件定義的規則集。
-  plugins: ['@typescript-eslint'],
-  rules: {},
+  // prettier插件（即eslint-plugin-prettier）將 Prettier 規則轉換為 ESLint 規則
+  plugins: ['@typescript-eslint', 'prettier'],
+  rules: {
+    'prettier/prettier': 'error', // 開啟prettier外掛提供的規則，該外掛程式從 ESLint 內執行 Prettier
+    // 關閉這兩個 ESLint 核心規則，這兩個規則和prettier外掛一起使用會出現問題
+    'allow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
+  },
 };
