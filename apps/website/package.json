@@ -3,5 +3,7 @@
     "debug": "node ./src/index.ts"
   },
   "type": "module",
-  "dependencies":{"@owen-web/utils":"workspace:^"}
+  "dependencies": {
+    "@owen-web/utils": "workspace:^"
+  }
 }
