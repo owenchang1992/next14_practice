@@ -6,7 +6,7 @@
 		"commit": "cz",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky",
-		"lint": "eslint ./ --ext .ts,.js,.json --max-warnings=0",
+		"lint": "eslint ./ --ext .ts,.js --max-warnings=0",
 		"format": "prettier --config .prettierrc . --write"
 	},
 	"keywords": [],

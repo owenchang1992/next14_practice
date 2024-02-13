@@ -4,5 +4,6 @@
 	"tabWidth": 2,
 	"printWidth": 120,
 	"endOfLine": "auto",
-	"useTabs": true
+	"useTabs": true,
+	"importOrderParserPlugins": ["typescript", "decorators"]
 }
